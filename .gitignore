@@ -1,0 +1,12 @@
+# Coment 
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/*
+log/*.log.[0-9]
+asstes/photoshop/
+assets/videos/
+!asset/videos/tour_*.mp
+
+# question: would log/archive/access.log be ingored? no. Because it is folder inside of folder, it is not a file.
